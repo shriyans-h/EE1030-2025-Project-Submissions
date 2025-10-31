@@ -19,14 +19,14 @@ Each student must submit their project following the structure and guidelines gi
 - Inside `Hardware-Assignment`, follow this structure:
   - `codes/`  
     - `arduino/` → Arduino code files (.ino or or assembly or .c and all those hex files if any)  
-    - `linear_regression/` → Code related to linear regression or analysis (.py, .ipynb, etc.)
+    - `linear_regression/` → Code related to linear regression or analysis (.py, etc.)
   - `figs/` → Circuit diagrams, block diagrams, or other figures  
   - `tables/` → Data tables, experiment results, etc.   
 
 ---
 ## 🧾 Submission Guidelines
 
-1. **Folder Naming:** Use both team members’ roll numbers, joined by an underscore (e.g., `ee24btech11001_ee25btech11036`).  
+1. **Folder Naming:** Use both team members’ roll numbers, joined by an underscore (e.g., `ee24btech110xx_ee25btech110yy`).  
 2. **Contents:** Follow the folder hierarchy exactly as shown above or else lovely negative marks will be awarded
 3. **Pull Request Submission:**  
    - Only **one team member** should submit a pull request (PR).  
@@ -43,7 +43,7 @@ Each student must submit their project following the structure and guidelines gi
 
 ## Note
 
-- Do **not** modify or delete** other students’ folders.**  
+-**Do not modify or delete other students’ folders.**  
 - Each student is responsible only for their own submission directory.  
 - Ensure your repository folder names and file formats are consistent before submission.
 - Not following given instructions will be given **negative marks**.
