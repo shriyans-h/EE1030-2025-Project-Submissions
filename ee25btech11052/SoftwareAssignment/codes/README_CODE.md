@@ -18,7 +18,7 @@ This project contains two different implementations that must be set up separate
 ├── figs/                      # Output directory for plots
 └── tables/                    # LaTeX tables with error metrics
 ```
-
+---
 ### 1.  Model 1: Full C (Grayscale) Setup
 
 This implementation uses the `stb_image.h`,`stb_image_write.h` `svd.h` and  libraries, which should be placed in the `c_libs` folder. The main program is in `c_main`.
