@@ -38,7 +38,7 @@ cd c_main
 
 # Compile the program
 
-gcc -o compression main.c -I../c_libs -lm -O3 
+gcc -o ImageCompression main.c -I../c_libs -lm -O3 
 
 ```
 
