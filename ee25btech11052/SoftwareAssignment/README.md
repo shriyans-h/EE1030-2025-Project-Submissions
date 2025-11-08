@@ -1,4 +1,5 @@
 # SVD Image Compression Library (Full C + C/Python)
+---
 ## OVERVIEW
 * This project is done under the Prof. GVV Sharma for the  course Matrix Theory.
 ---
@@ -13,6 +14,5 @@
 ---
 
 ## Acknowledgments & Dependencies
-The full C implementation (for grayscale images) relies heavily on the excellent single-header C libraries stb_image.h and stb_image_write.h by Sean Barrett (nothings) for image loading and saving. Their work was essential for building the pure C-based solution.
----
-GILBERT STRANG (MIT)
+* The full C implementation (for grayscale images) relies heavily on the excellent single-header C libraries stb_image.h and stb_image_write.h by Sean Barrett (nothings) for image loading and saving. Their work was essential for building the pure C-based solution.
+* GILBERT STRANG (MIT)
