@@ -1,7 +1,6 @@
 # SVD Image Compression Library (Full C + C/Python)
----
 ## OVERVIEW
-* This project is done under the Prof. GVV Sharma for the  course Matrix Theory.
+* This project is done under the Prof. GVV Sharma for the  course EE1030-2025 Matrix Theory.
 ---
 * The project is done using full C implementation both for Image handling and computing the Compression for grayscale (single channel images).For Colored Images; a hybrid C + python implementation has been done .Python is used for image handling while C backend code is same as for single channel images as in case of grayscale.
 ---
