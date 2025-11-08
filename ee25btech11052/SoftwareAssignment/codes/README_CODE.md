@@ -5,6 +5,19 @@ This project contains two different implementations that must be set up separate
 2.  **Hybrid C/Python (Color)**: A Python script that calls a C library for color images.
 
 ---
+## Project Structure
+```
+├── codes/
+│   ├── c_libs/
+│   │   └── jacobi.h           # Header file with function declarations
+│   ├── c_main/
+│   │   ├── jacobi.c           # Implementation of SVD and image processing
+│   │   └── svd.c              # Main program
+│   └── python/
+│       └── plot.py            # Plotting script for error analysis
+├── figs/                      # Output directory for plots
+└── tables/                    # LaTeX tables with error metrics
+```
 
 ### 1.  Model 1: Full C (Grayscale) Setup
 
@@ -13,6 +26,7 @@ The code may require changing the file path in the code so just go through that 
 #### Step 1: Download `stb` Libraries
 
 If you haven't already, download `stb_image.h` and `stb_image_write.h` from the [stb GitHub repository](https://github.com/nothings/stb) and place both files inside the `c_libs` directory.
+Coping and move this libs into the c_main folder.
 
 #### Step 2: Compile the Program
 
@@ -24,9 +38,7 @@ cd c_main
 
 # Compile the program
 
-gcc -o compression main.c -I../c_libs -lm -O3 \
-    -D STB_IMAGE_IMPLEMENTATION \
-    -D STB_IMAGE_WRITE_IMPLEMENTATION
+gcc -o compression main.c -I../c_libs -lm -O3 
 
 ```
 
